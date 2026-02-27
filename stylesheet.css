@@ -56,12 +56,64 @@ main {
     text-align: center;
 }
 
-h2 {
+.about h2 {
     font-size: 32px;
     border-bottom: 1px solid black;
     padding-top: 50px;
     width: 106px;
     margin: 0 auto;
+}
+
+.container {
+    padding: 70px 0;
+    width: 540px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about-icon img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.intro {
+    text-align: left;
+    padding-left: 30px;
+    height: 100px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.intro p {
+    font-size: 14px;
+}
+
+.bicycle h2 {
+    font-size: 32px;
+    border-bottom: 1px solid black;
+    padding-top: 50px;
+    width: 122px;
+    margin: 0 auto;
+}
+
+.contents{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.contents img {
+    height: 182px;
+    padding: 0 10px;
+}
+
+.txt-contents {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 footer {
