@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
 }
@@ -8,7 +12,13 @@ body {
 }
 
 header {
-    padding: 0 500px;
+    width: 100%;
+    height: 60px;
+}
+
+.container {
+    width: 858px;
+    margin: 0 auto;
 }
 
 .header-left {
@@ -18,22 +28,19 @@ header {
 .logo {
     height: 40px;
     width: 120px;
-    padding: 10px 25px;
+    margin: 10px 0;
 }
 
 .header-right {
     float: right;
 }
 
-.header-right li {
-    list-style: none;
-    display: inline-block;
-}
-
 .header-right a {
-    font-size: 14.5px;
-    padding-right: 25px;
+    font-size: 14px;
     color: black;
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 10px;
 }
 
 .header-right a:hover {
@@ -41,19 +48,16 @@ header {
 }
 
 .main-visual {
-    width: 100%;
     height: 600px;
-    overflow: hidden;
+    background-image: url(img/mainvisual.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
 }
 
-.main-visual img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-main {
-    text-align: center;
+.about {
+    width: 528px;
+    margin: 0 auto;
 }
 
 .about h2 {
@@ -64,30 +68,28 @@ main {
     margin: 0 auto;
 }
 
-.container {
-    padding: 70px 0;
-    width: 540px;
-    margin: 0 auto;
+.intro {
+    text-align: left;
     display: flex;
+    margin: 50px 0;
 }
 
-.about-icon img {
+.about-img img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    margin-top: 15px;
 }
 
-.intro {
-    text-align: left;
-    padding-left: 30px;
-    height: 100px;
+.intro-txt {
+    margin-left: 30px;
 }
 
-h3 {
+.intro-txt h3 {
     font-size: 16px;
 }
 
-.intro p {
+.intro-txt p {
     font-size: 14px;
 }
 
@@ -101,8 +103,6 @@ h3 {
 
 .contents{
     display: flex;
-    width: 900px;
-    margin: 0 auto;
     padding: 70px 0;
 }
 
@@ -113,7 +113,6 @@ h3 {
 
 .txt-contents {
     text-align: center;
-    padding-bottom: 30px;
 }
 
 footer {
