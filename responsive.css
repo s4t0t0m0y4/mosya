@@ -2,7 +2,7 @@
 }
 
 @media (max-width: 375px) {
-    .content {
+    body {
         width: 100%;
     }
 }
