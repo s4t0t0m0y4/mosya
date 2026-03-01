@@ -1,8 +1,29 @@
-@media (max-width: 1280px) {
-}
+@media (max-width: 768px) {
+    .logo {
+        padding-left: 10px;
+    }
 
-@media (max-width: 375px) {
-    body {
-        width: 375px;
+    .intro {
+        flex-direction: column;
+    }
+
+    .about-img  {
+        margin: 0 auto;
+    }
+
+    .intro .intro-txt {
+        margin: 0 auto;
+    }
+    
+    .contents {
+        flex-direction: column;
+    }
+
+    .content {
+        margin: 0 auto;
+    }
+
+    .txt-contents {
+        padding-bottom: 30px;
     }
 }
